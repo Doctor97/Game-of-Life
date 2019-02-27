@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game of Life</title>
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row" style="margin-top: 0px;">
+        <div id="plate" class="col-lg-12">
+      </div>
+      <div class="row">
+        <center>
+         <button id ="start" type="button" class="btn btn-success">START</button>
+         <button id ="step" type="button" class="btn btn-info">STEP</button>
+         <button id ="stop" type="button" class="btn btn-danger">STOP</button>
+         <button id ="apply" type="button" class="btn btn-warning">APPLY</button>
+       </center>
+
+       <center> 
+          Cell Size: <input type="text" id="cellSize" size="3" value="50">
+          Speed: <input type="text" id="speed" size="5" value="500">
+       </center>
+      </div>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <script src="script.js"></script>
+  
+  </body>
+</html>

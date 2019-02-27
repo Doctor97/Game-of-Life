@@ -1,0 +1,21 @@
+body{
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+#plate{
+	height: 500px;
+	padding: 0px;
+	//border: 1px solid black;
+} 
+
+.btn{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+input{
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
